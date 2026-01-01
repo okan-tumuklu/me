@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okan | Cyber Security Analyst</title>
+    <style>
+        /* --- CSS Başlangıcı --- */
+        :root {
+            --bg-color: #111111;
+            --text-color: #e0e0e0;
+            --accent-color: #00ff9d;
+            --secondary-text: #888888;
+            --card-bg: #1a1a1a;
+        }
+
+        body {
+            font-family: 'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            margin-bottom: 50px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: -1px;
+        }
+
+        .subtitle {
+            color: var(--accent-color);
+            font-family: 'Courier New', monospace;
+            font-size: 1.1rem;
+            margin-top: 10px;
+            display: block;
+        }
+
+        /* Bölümler */
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 40px;
+            color: #fff;
+            border-left: 3px solid var(--accent-color);
+            padding-left: 10px;
+        }
+
+        p { color: #cccccc; }
+
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .project-item {
+            background: var(--card-bg);
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #333;
+            transition: transform 0.2s ease, border-color 0.2s;
+        }
+
+        .project-item:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent-color);
+        }
+
+        .project-title {
+            font-weight: bold;
+            color: #fff;
+            display: block;
+        }
+
+        .project-desc {
+            font-size: 0.9rem;
+            color: var(--secondary-text);
+        }
+
+        /* Linkler */
+        a { color: var(--text-color); text-decoration: none; border-bottom: 1px dotted var(--secondary-text); }
+        a:hover { color: var(--accent-color); border-bottom-style: solid; }
+
+        /* Footer */
+        footer {
+            margin-top: 60px;
+            font-size: 0.8rem;
+            color: var(--secondary-text);
+            text-align: center;
+        }
+
+        /* Mobil Uyum */
+        @media (max-width: 600px) {
+            .container { margin: 20px auto; }
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Okan Tümüklü</h1>
+            <span class="subtitle">Junior Penetration Tester</span>
+            <p style="margin-top: 15px; max-width: 500px;">
+                Siber güvenlik, ağ analizi ve Linux sistem yönetimi üzerine çalışıyorum.
+                Sanal laboratuvarımda, tryhackme ve hackthebox platformlarında sızma testleri gerçekleştiriyorum.
+            </p>
+        </header>
+
+        <section>
+            <h2>Hakkımda</h2>
+            <p>
+                Bir siber güvenlik meraklısıyım. Güncel olarak Programlama,
+                Network analizi ve sistem pentesting üzerine odaklanıyorum.
+            </p>
+        </section>
+
+        <section>
+            <h2>İletişim</h2>
+            <p>
+                Benimle projeler veya siber güvenlik sohbetleri için iletişime geçebilirsiniz:
+                <br><br>
+                📧 <a href="mailto:seninmailin@gmail.com">okan.tumuklu@outlook.com.tr</a> •
+                🐙 <a href="https://github.com/okan-tumuklu">GitHub</a> •
+                💼 <a href="#">LinkedIn</a>
+            </p>
+        </section>
+
+        <footer>
+            © 2026 Okan.
+        </footer>
+    </div>
+
+</body>
+</html>
